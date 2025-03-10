@@ -45,6 +45,7 @@ public class TopologicalSort {
                 }
             }
         }
+
         
         // Check if a cycle exists: the sorted order must contain all nodes.
         if (sortedOrder.size() != numNodes) {

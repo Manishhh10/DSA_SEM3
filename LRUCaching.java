@@ -1,7 +1,8 @@
 import java.util.HashMap;
 
 public class LRUCaching {
-
+    Node dummyhead = new Node(0,0);
+    Node dummytail = new Node (0,0);
     public static class Node{
         int k;
         int  v;
@@ -14,6 +15,7 @@ public class LRUCaching {
         }
     }
     // end of node
+
 
     int capacity;
     HashMap<Integer,Node> map;
@@ -36,9 +38,6 @@ public class LRUCaching {
         Node newnode = new Node(key, value);
         insert(newnode);
     }
-
-    Node dummyhead = new Node(0,0);
-    Node dummytail = new Node (0,0);
 
     void insert(Node newnode){
         map.put(newnode.k, newnode);
