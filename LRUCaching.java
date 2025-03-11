@@ -71,10 +71,6 @@ public class LRUCaching {
         node.next.prev = node.prev;
         node.next = node.prev = null;
     }
-
-    public static void main(String[] args) {
-        
-    }
 }
 
 
