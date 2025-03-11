@@ -1,7 +1,4 @@
 package DSA_EXAM_QNS;
-import java.util.ArrayList;
-import java.util.List;
-
 public class Qn_20 {
     // Implement disjoint find and union operation to detect cycle in undirected graph
     public class DisjointSet {
