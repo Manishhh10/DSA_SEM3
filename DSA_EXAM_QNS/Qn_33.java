@@ -13,7 +13,7 @@ public class ParallelMergeSort {
         
         if (high - low > THRESHOLD) {
             Thread left = new Thread(() -> mergeSort(arr, low, mid));
-            Thread right = new Thread(() -> mergeSort(arr, mid + 1, high));
+            Thread right = new Thread(() -> mergeSort(arr, high, mid + 1 ));
             left.start();
             right.start();
             try {
