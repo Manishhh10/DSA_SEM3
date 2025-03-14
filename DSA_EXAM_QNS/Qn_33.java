@@ -24,7 +24,7 @@ public class ParallelMergeSort {
             }
         } else {
             mergeSort(arr, low, mid);
-            mergeSort(arr, mid + 1, high);
+            mergeSort(arr, high, mid + 1);
         }
         merge(arr, low, mid, high);
     }

@@ -35,4 +35,4 @@ public class Qn_10 {
 // Best-case Scenario:
 // Even in the best case (for example, when the maximum element is at the beginning), the algorithm still needs to check every other element to be sure, so it remains O(n).
 
-// This simple and efficient approach ensures that the maximum element is found in a single pass through the array.
+// The program iterates through the array exactly once, performing a constant number of operations for each element. Thus, the time complexity is O(n), where n is the number of elements in the array.

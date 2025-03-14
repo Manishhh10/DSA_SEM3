@@ -1,5 +1,7 @@
 package DSA_EXAM_QNS;
 
+import java.lang.module.ModuleDescriptor.Requires;
+
 public class Qn_13 {
 
 //Genetic algorithms are search heuristics inspired by natural selection. They work by evolving a population of candidate solutions through iterative processes:
@@ -11,14 +13,14 @@ public class Qn_13 {
 // Iteration: Repeat evaluation and selection over many generations, evolving the population toward an optimal or near-optimal solution.
 
 // Advantages:
-// Effective for solving complex, nonlinear, and multimodal problems where traditional methods fail.
-// Helps avoid local optima by exploring multiple regions of the solution space.
-// Can be parallelized, improving efficiency on multi-core or distributed systems.
+// Can solve complex, non-linear, and multimodal problems.
+// Robust in avoiding local optima.
+// Easily parallelizable.
 
 // Disadvantages:
-// Computationally expensive, especially for large search spaces.
-// Requires careful tuning of parameters like mutation rate and population size.
-// May not always guarantee the best solution and can converge to suboptimal results.
+// Computationally intensive.
+// Requires careful parameter tuning (e.g., mutation rate, population size).
+// May converge to suboptimal solutions.
 
 // Example: A classic use case is the Traveling Salesman Problem (TSP), where the goal is to find the shortest possible route visiting a set of cities. GAs can efficiently search through potential routes and yield a near-optimal solution.
 

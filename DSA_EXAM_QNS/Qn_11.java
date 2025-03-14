@@ -1,6 +1,5 @@
 package DSA_EXAM_QNS;
 import java.util.HashMap;
-import java.util.Map;
 
 public class Qn_11 {
    public class LRUCaching {

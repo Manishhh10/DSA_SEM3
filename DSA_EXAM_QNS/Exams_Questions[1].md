@@ -33,11 +33,11 @@
 
 <hr>
 	 
-4. Write an algorithm to implement queue using two stacks
+4. Write an algorithm to implement queue using two stacks ----------------------------------------------------------------------------------------
 
 <hr>
 
-5. Define deadlock and how these can be protected in while writing multi threaded applications
+5. Define deadlock and how these can be protected in while writing multi threaded applications----------
 
 <hr>
 
@@ -47,7 +47,7 @@
 
 7. An integer array A is k-even-mixed if there are exactly k even integers in A,
 	and the odd integers in A appear in sorted order. Given a k-even-mixed array
-	A containing n distinct integers for, describe an O(n) time algorithm to sort A.
+	A containing n distinct integers for k=n/logn', describe an O(n) time algorithm to sort A.
 	
 <hr>
 
@@ -55,19 +55,19 @@
 
 <hr>
 
-9. Write an algorithm to find power of any integer using divide and conquer.
+9. Write an algorithm to find power of any integer using divide and conquer.-----------------------------
 
 <hr>
 
-10. Write an algorithm to find the maximum element of an array and analyze its time complexity
+10. Write an algorithm to find the maximum element of an array and analyze its time complexity-------------------------------
 
 <hr>
 
-11. Implement LRU caching
+11. Implement LRU caching-----------------------------------------=======
 
 <hr>
 
-12. Implement LFU caching
+12. Implement LFU caching-------------------xxxxxxxxxxxxxxxxx
 
 <hr>
 
@@ -75,36 +75,36 @@
 
 <hr>
 
+15. Find the edit distance between the string "ARTIFICIAL" and "NATURAL" using dynamic programming.=======
+
+<hr>
+
 14. Design algorithm to solve TSP Problem using heuristic approach.
 
 <hr>
 
-15. Find the edit distance between the string "ARTIFICIAL" and "NATURAL" using dynamic programming.
+16. Write an algorithm to find length of maximum common subsequence between two STRINGS "company" and "colony"-----------------------------
 
 <hr>
 
-16. Write an algorithm to find length of maximum common subsequence between two STRINGS "company" and "colony"
+17. When greedy strategy provides optimal solution? Write down job sequencing with deadlines algorithm and analyze its complexity.====
 
 <hr>
 
-17. When greedy strategy provides optimal solution? Write down job sequencing with deadlines algorithm and analyze its complexity.
+18. Implement topological sorting  algorithm.--------------------------------
 
 <hr>
 
-18. Implement topological sorting  algorithm.
-
-<hr>
-
-19. Trace Prim's Algorithm/Krushkal's algorithm to find maximum spanning tree for the following graph
+19. Trace Prim's Algorithm/Krushkal's algorithm to find maximum spanning tree for the following graph ===============
 	![[Pasted image 20250306200426.png]]
 
 <hr>
 
-20. Implement disjoint find and union operation to detect cycle in undirected graph
+20. Implement disjoint find and union operation to detect cycle in undirected graph-----------------------------------
 
 <hr>
 
-21. Discuss heapify operation with example. Write down its algorithm and analyze its time and space complexity
+21. Discuss heapify operation with example. Write down its algorithm and analyze its time and space complexity============
 
 <hr>
 
@@ -112,7 +112,7 @@
 
 <hr>
 
-23. Does backtracking gives multiple solution? Trace subset sum algorithm for the set {3, 5, 2, 4, 1} and sum = 8.
+23. Does backtracking gives multiple solution? Trace subset sum algorithm for the set {3, 5, 2, 4, 1} and sum = 8. ==============
 
 <hr>
 
@@ -120,7 +120,7 @@
 
 <hr>
 
-25. Given an integer array nums, find the subarray with largest sum, and return its sum.
+25. Given an integer array nums, find the subarray with largest sum, and return its sum.=========
 	
 		Example 1:
 		Input: nums ={-2, 1, -3, 4, -1, 2, 1, -5, 4 }
@@ -143,11 +143,11 @@
 
 <hr>
 
-27. For any weighted graph G = (V,E,w) and integer k, define to the graph that results from Removing every edge in G having weight k or larger.            Given a connected undirected weighted graph G = (V,E,w) where every edge has a unique integer weight, describe an `O(|E| log |E|)-time` algorithm to determine the largest value of k such that is not connected.
+27. For any weighted graph G = (V,E,w) and integer k, define to the graph that results from Removing every edge in G having weight k or larger. Given a connected undirected weighted graph G = (V,E,w) where every edge has a unique integer weight, describe an `O(|E| log |E|)-time` algorithm to determine the largest value of k such that is not connected.
 
 <hr>
 
-28. Explain in brief the Backtracking approach for algorithm design. How it differs with recursion? Explain the N-Queen problem and algorithm using backtracking and analyze its time complexity.
+28. Explain in brief the Backtracking approach for algorithm design. How it differs with recursion? Explain the N-Queen problem and algorithm using backtracking and analyze its time complexity.========
 
 <hr>
 
@@ -167,4 +167,4 @@
 
 <hr>
 
-33. Define concurrency control keyword in dynamic multi-threading. Design multi-threaded Merge Sort algorithm
+33. Define concurrency control keyword in dynamic multi-threading. Design multi-threaded Merge Sort algorithm========

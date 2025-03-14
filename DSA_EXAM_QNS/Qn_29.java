@@ -7,18 +7,10 @@ public class Qn_29 {
 
 // NP Membership: The problem is in NP.
 // NP-Hardness: Every problem in NP can be reduced to it in polynomial time.
-// In other words, NP-complete problems are the "hardest" problems in NP. If you could solve one NP-complete problem in polynomial time, you could solve every problem in NP in polynomial time.
 
 // Examples of NP-Complete Problems:
 
 // SAT (Boolean Satisfiability Problem): Determine if there exists an assignment of truth values to variables that makes a Boolean formula true.
-// 3-SAT: A special case of SAT where the formula is in conjunctive normal form with exactly three literals per clause.
-// Hamiltonian Cycle: Determine whether a graph contains a cycle that visits each vertex exactly once.
-// Vertex Cover: Given a graph and a number 
-// 𝑘
-// k, decide if there is a set of 
-// 𝑘
-// k vertices that covers every edge.
 // Clique Problem: Determine if a graph contains a complete subgraph of a given size.
 // Brief Proof that "SAT is NP-Complete"
 // The proof that SAT is NP-complete is established by the Cook-Levin Theorem. The key ideas of the proof are as follows:
